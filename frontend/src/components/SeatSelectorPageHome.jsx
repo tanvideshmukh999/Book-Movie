@@ -13,7 +13,7 @@ import {
 import { toast } from "react-toastify";
 import { seatSelectorHStyles } from "../assets/frontend/dummyStyles";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://book-movie-backend.onrender.com";
 
 /* layout */
 const ROWS = [

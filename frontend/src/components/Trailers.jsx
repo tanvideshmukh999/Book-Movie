@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { trailersStyles,trailersCSS } from '../assets/frontend/dummyStyles'
 import { Calendar, ChevronLeft, ChevronRight, Clapperboard, Clock, Play, X } from 'lucide-react'
-const API_BASE="http://localhost:5000";
+const API_BASE="https://book-movie-backend.onrender.com";
 
 
 const PLACEHOLDER_THUMB =
