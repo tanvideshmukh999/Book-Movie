@@ -1,0 +1,13 @@
+# dependencies
+node_modules
+
+# builds
+dist
+build
+.vite
+
+# env
+.env
+
+# logs
+*.log
