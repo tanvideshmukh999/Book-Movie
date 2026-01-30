@@ -4,7 +4,7 @@ import QRCode from 'qrcode'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 import { Film,Clock,MapPin,QrCode,ChevronDown } from 'lucide-react';
-const API_BASE="http://localhost:5000";
+const API_BASE="https://book-movie-backend.onrender.com";
 
 function getStoredToken(){
   return(
