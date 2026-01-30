@@ -31,7 +31,7 @@ const VerifyPaymentPage = () => {
           }
           try {
             setStatusMsg('Confirming payment with server.');
-            const API_BASE="https://book-movie-backend.onrender.com";
+            const API_BASE="http://localhost:5000";
             const res=await axios.get(`${API_BASE}/api/bookings/confirm-payment`,{
                 params:{session_id},
                 headers:token ? {Authorization :`Bearer ${token}`} :{},

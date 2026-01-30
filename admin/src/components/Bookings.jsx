@@ -30,7 +30,7 @@ function getStoredToken() {
   );
 }
 
-const API_BASE='https://book-movie-backend.onrender.com';
+const API_BASE='http://localhost:5000';
 
 const Bookings = () => {
  

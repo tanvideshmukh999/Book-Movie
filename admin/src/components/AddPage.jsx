@@ -3,7 +3,7 @@ import { addMoviePageStyles,addMoviePageCustomStyles } from '../assets/dummyStyl
 import axios from 'axios'
 import {toast, ToastContainer} from 'react-toastify'
 import { Film, Image as  ImageIcon,Play,Star,Clock,Plus,X,Users,Upload } from 'lucide-react'
-const API_HOST='https://book-movie-backend.onrender.com';
+const API_HOST='http://localhost:5000';
 
 
 const AddPage = () => {

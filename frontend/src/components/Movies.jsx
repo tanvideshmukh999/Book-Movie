@@ -3,7 +3,7 @@ import { moviesStyles } from '../assets/frontend/dummyStyles'
 import movies from '../assets/frontend/dummymoviedata.js'
 import { Link } from 'react-router-dom'
 import { Tickets } from 'lucide-react'
-const API_BASE="https://book-movie-backend.onrender.com";
+const API_BASE="http://localhost:5000";
 const PLACEHOLDER = "https://via.placeholder.com/400x600?text=No+Poster";
 
 const getUploadUrl = (maybe) => {

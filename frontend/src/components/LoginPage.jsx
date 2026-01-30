@@ -3,7 +3,7 @@ import { loginStyles } from '../assets/frontend/dummyStyles'
 import {toast, ToastContainer} from 'react-toastify'
 import { ArrowLeft, Clapperboard, Eye, EyeOff, Film, Popcorn } from 'lucide-react';
 import axios from 'axios'
-const API_BASE='https://book-movie-backend.onrender.com/api/auth'
+const API_BASE='http://localhost:5000/api/auth'
 const LoginPage = () => {
       const [formData, setFormData] = useState({
     email: '',

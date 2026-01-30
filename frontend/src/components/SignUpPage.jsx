@@ -3,7 +3,7 @@ import { signUpStyles,signUpCSS } from '../assets/frontend/dummyStyles';
 import { toast, ToastContainer } from 'react-toastify';
 import { ArrowLeft, Calendar, Clapperboard, Eye, EyeOff, Film, Lock, Mail, Phone, Ticket, User } from 'lucide-react';
 import axios from 'axios'
-const API_BASE='https://book-movie-backend.onrender.com/api/auth'
+const API_BASE='http://localhost:5000/api/auth'
 const SignUpPage = () => {
       const [formData, setFormData] = useState({
     fullName: "",

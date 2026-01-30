@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { styles3,fontStyles2 } from '../assets/dummyStyles'
 import axios from 'axios'
-const API_BASE='https://book-movie-backend.onrender.com';
+const API_BASE='http://localhost:5000';
 // format INR
 const fmtINR = (num) =>
   typeof num === "number"

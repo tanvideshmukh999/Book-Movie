@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { styles5,customStyles } from '../assets/dummyStyles'
 import axios from 'axios'
 import {Calendar, Film,Play as PlayIcon, Star, Ticket ,Search ,X,Clock,Play} from 'lucide-react'
-const API_BASE='https://book-movie-backend.onrender.com';
+const API_BASE='http://localhost:5000';
 function getImageUrl(maybe) {
   // Convert filename, uploads/filename, or partial to a full uploads URL.
   if (!maybe) return null;
